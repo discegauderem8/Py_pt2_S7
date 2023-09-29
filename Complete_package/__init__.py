@@ -5,9 +5,7 @@ from random import uniform as rnd
 from random import sample, randbytes
 from pathlib import Path
 import string
-
-
 import os
 
 
-__all__ = ['rename_files', 'is_valid_directory', 'ri', 'rnd', "sample", "randbytes", "Path", "string"]
+__all__ = ['rename_files', 'is_valid_directory', 'ri', 'rnd', "sample", "randbytes", "Path", "string", "os"]

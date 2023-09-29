@@ -14,4 +14,4 @@ def create_files_n_dirs (path_to_new_dir, this_extension):
             os.mkdir(path_to_new_dir)
             create_f_ext(path=path_to_new_dir, nums_and_extensions=this_extension)
 
-create_files_n_dirs(path_to_new_dir="some_dir", this_extension=((".txt",3),))
+create_files_n_dirs(path_to_new_dir="\some_dir", this_extension=((".txt",3),))
